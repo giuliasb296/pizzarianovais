@@ -1,0 +1,26 @@
+@import "_variáveis.css";
+
+.text-small { 
+    font-size: var(--t-12);
+    font-family: var(--font-family);
+    font-weight: 100;
+}
+.text-medium {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: var(--t-18);
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.text-large {
+    font-size: var(--t-18);
+    font-family: var(--font-family);
+    font-weight: 600;
+    margin-bottom:16px;
+}
+
+.TítuloPrincipal {
+    font-size: 48px;
+    font-family: "Merienda";
+}

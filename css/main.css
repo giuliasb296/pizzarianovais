@@ -1,0 +1,10 @@
+@import "base/_reset.css";
+@import "base/_typography.css";
+@import "base/_variáveis.css";
+@import "layout/_nav.css";
+@import "layout/_header.css";
+@import "module/_button.css";
+@import "module/_card.css";
+@import "layout/_section_cards.css";
+@import "layout/_section_sobre.css";
+@import "layout/_section_localização.css"

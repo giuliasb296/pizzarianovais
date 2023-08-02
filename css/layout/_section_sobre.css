@@ -1,0 +1,40 @@
+.Sobre {
+    height: 700px;
+    background-image: url("../../imagens/pizza_fundo.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacao {
+    height: 350px;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoInformacao {
+    height: 300px;
+    width: 90%;
+    border: 2px solid salmon;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TítuloSobre {
+    margin-top: 20px;
+    font-family: Merienda;
+    font-size: 36px;
+}
+
+.TextoInformativo {
+    width: 90%;
+    height: 280px;
+    font-family: 'Poppins';
+    margin-top: 20px;
+    text-align: justify;
+}
+

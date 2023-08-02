@@ -1,0 +1,51 @@
+.Localização {
+    height: 600px;
+    position: relative;
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows:100px 100px auto;
+}
+
+.LocalizaçãoPrincipal {
+        grid-column: 2/8;
+        grid-row-start: 2;
+}
+
+.TítuloLocalização {
+    font-family: Merienda;
+    font-size: 48px;
+}
+
+.ÍconeLocal {
+    height: 280px;
+    width: 300px;
+    grid-column: 5/13;
+    grid-row-start:1;
+    z-index: 1;
+    margin-top: 70px;
+
+}
+
+.Mapa {
+    height: 350px;
+    grid-column: 2;
+    grid-row-start: 7;
+    margin-bottom: 50px;
+}
+
+.Arredondada2 {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 450px;
+    height: 450px;
+    background-color: #da582f;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+footer {
+    height: 350px;
+    width: 100%;
+    background-color: #da582f;
+}

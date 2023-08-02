@@ -1,0 +1,57 @@
+header {
+    position: relative;
+    display: grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows:100px 100px auto;
+}
+
+nav {
+    grid-column: 1/13;
+    grid-row-start: 1;
+}
+
+.MensagemPrincipal {
+    grid-column: 2/8;
+    grid-row-start: 3;
+}
+
+.ImagemPrincipal {
+    grid-column: 8/13;
+    grid-row-start:2;
+    z-index: 1;
+}
+
+.Arredondada {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 450px;
+    height: 450px;
+    background-color: #da582f;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+}
+
+@media (max-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Arredondada {
+        width: 250px;
+        height: 250px;
+        display: none;
+    }
+
+    .MensagemPrincipal {
+        padding: 8px;
+    }
+
+    .ImagemPrincipal {
+        width: 350px;
+        height: auto;
+    }
+
+}
