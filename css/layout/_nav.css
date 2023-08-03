@@ -6,10 +6,23 @@ nav {
     border-bottom: 1px solid black;
 }
 
-ul,li {
+ul,li:hover {
     display: inline-block;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
+.lista_menu {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista_icon {
+    display: flex;
+}
 a {
     color: black;
     text-decoration: none;
