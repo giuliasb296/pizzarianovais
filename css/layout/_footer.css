@@ -49,12 +49,6 @@
     align-items: center;
 }
 
-.Pagamento {
-    width: 30%;
-    height: 300px;
-    background-color: red;
-}
-
 .linha {
     width: 100%;
     height: 0.5px;
@@ -79,4 +73,46 @@
     height: 80px;
 }
 
+.Pagamento {
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.FPagamento {
+    font-family: 'Poppins';
+}
+
+.Bandeiras {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.VSE {
+    width: 48%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EP {
+    width: 48%;
+    height: 300px;
+    background-color: chartreuse;
+}
+
+.ÍconsBandeiras1 {
+    width: 60%;
+    height: 70px;
+}
+
+.ÍconsBandeiras2 {
+    width: 60%;
+    height: 65px;
+}
