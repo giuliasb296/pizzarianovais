@@ -1,3 +1,5 @@
 document.getElementById("menuIcon").addEventListener("click", function(event) {
-    console.log("Hello World!")
+    let menuContent = document.getElementById("menuContent");
+    menuContent.style.display = menuContent.style.display === 'block' ? 'none' : 'block'
+    event.stopPropagation;
 })
