@@ -44,4 +44,13 @@
     border-bottom-left-radius: 50%;
 }
 
+.Endereço {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: var(--t-18);
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+
 

@@ -29,10 +29,9 @@
 }
 
 .Contato {
-    width: 28%;
+    width: 30%;
     height: 300px;
-    margin-left: 50px;
-     font-family: 'Poppins';
+    font-family: 'Poppins';
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,9 +39,12 @@
 }
 
 .Visite {
+    width: 100%;
     margin-top: 10px;
     font-family: 'Poppins';
-    font-weight: bolder;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .ÍconesRS {
@@ -103,3 +105,11 @@
     margin-bottom: 20px;
 }
 
+.Sac {
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
