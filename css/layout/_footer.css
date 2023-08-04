@@ -124,6 +124,12 @@
         flex-direction: column;
     }
 
+    .Contato {
+        width: 300px;
+        height: 300px;
+        margin-left: 0;
+    }
+
     .MeuCódigo {
         width: 200px;
         height: 200px;
@@ -135,7 +141,24 @@
 
     .ÍconesRS {
         width: 300px;
+        height: 90px;
+        margin-top: 0;
+    }
+
+    .Pagamento {
+        width: 300px;
+        height: 350px;
+    }
+
+    .ÍconsPagamento {
+        width: 300px;
         height: 150px;
-        margin-top: none;
+    }
+
+    .Visite {
+        width: 350px;
+        display: flex;
+        margin-left:100px;
+        margin-top: 0;
     }
 }
