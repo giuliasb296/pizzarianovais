@@ -52,5 +52,37 @@
     font-weight: 300;
 }
 
+@media (max-width:700px) { 
+    
+    #Localização {
+        height: 700px;
+    }
+    .Arredondada2 {
+        display: none;
+    }
 
+    .Endereço {
+        display: none;
+    }
+
+    .TítuloLocalização {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    .ÍconeLocal {
+        display: none;
+    }
+    .Mapa {
+        width: 300px;
+        height: 400px;
+        display: grid;
+        grid-column: 7;
+        grid-row-start: 3;
+    }
+
+    
+}
 

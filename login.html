@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Novais - Login</title>
+    <script src="https://unpkg.com/@rive-app/canvas@2.1.0"></script>
+</head>
+<body>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <h1>Hello, Novais!</h1>
+    <script>
+        const r = new rive.Rive({
+            src: "./imagens/",
+            // Or the path to a public Rive asset
+            // src: '/public/example.riv',
+            canvas: document.getElementById("canvas"),
+            autoplay: true,
+            stateMachines: "bumpy",
+            onLoad: () => {
+              r.resizeDrawingSurfaceToCanvas();
+            },
+        });
+    </script>
+</body>
+</html>

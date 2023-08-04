@@ -39,4 +39,16 @@
     line-height: 1.05;
 }
 
+@media (max-width:700px) {
+    
+    .informacao {
+        width: 80%;
+        height: 520px;
+    }
+
+    .textoInformacao {
+        height: 490px;
+    }
+
+}
 
