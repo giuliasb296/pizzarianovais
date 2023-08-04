@@ -8,4 +8,5 @@
 @import "layout/_section_cards.css";
 @import "layout/_section_sobre.css";
 @import "layout/_section_localização.css";
-@import "layout/_footer.css"
+@import "layout/_footer.css";
+@import "./module/_scrollbar.css"
