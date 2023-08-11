@@ -2,7 +2,7 @@
     Projeto Pizzaria Novais
     Senai Nadir Dias de Figueiredo
     @author Giulia Santiago Barreto
-    03/08/2023
+    02/08/2023 - S
 */
 
 @import "base/_reset.css";
@@ -16,4 +16,5 @@
 @import "layout/_section_sobre.css";
 @import "layout/_section_localização.css";
 @import "layout/_footer.css";
-@import "./module/_scrollbar.css"
+@import "./module/_scrollbar.css";
+@import "./layout/_formulario_login.css";
